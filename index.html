@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Simplified Guide to the Indian Constitution"
+    />
+    <title>Indian Constitution Simplified</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h1><i class="fas fa-gavel"></i> FindYourLaw</h1>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav-links">
+          <li>
+            <a href="#hero"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+          <li>
+            <a href="#help"><i class="fas fa-question-circle"></i> Help</a>
+          </li>
+          <li>
+            <a href="#discussion"><i class="fas fa-comments"></i> Discussion</a>
+          </li>
+
+          <li class="language-selector">
+            <button id="language-button">
+              <span>Select Language</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <ul class="language-dropdown">
+              <li data-lang="en">English</li>
+              <li data-lang="hi">Hindi</li>
+              <li data-lang="es">Spanish</li>
+            </ul>
+          </li>
+
+          <li class="auth-buttons">
+            <button class="login-btn">
+              <i class="fas fa-sign-in-alt"></i> Login
+            </button>
+            <button class="signup-btn">
+              <i class="fas fa-user-plus"></i> Sign Up
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Rest of your HTML remains the same -->
+
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Learn the Indian Constitution in a Simplified Way &#128521;;</h2>
+        <p>
+          Making the laws, rules, and acts of India easy to understand for
+          everyone.
+        </p>
+        <button onclick="GetStarted()">Get Started</button>
+      </div>
+    </section>
+
+    <section id="articles">
+      <h2 style="color: white">Key Articles</h2>
+      <div class="article-list">
+        <div class="article-card">
+          <h3>Article 21 - Right to Life</h3>
+          <p>
+            Explanation of the fundamental right to life, its significance, and
+            related case laws.
+          </p>
+          <a href="#">Read more..</a>
+        </div>
+        <div class="article-card">
+          <h3>Article 14 - Right to Equality</h3>
+          <p>
+            Understanding the right to equality before the law and equal
+            protection of the laws.
+          </p>
+          <a href="#">Read more..</a>
+        </div>
+        <div class="article-card">
+          <h3>Article 19 - Freedom of Speech</h3>
+          <p>
+            Breaking down the fundamental freedom of speech and expression, its
+            limitations, and cases.
+          </p>
+          <a href="#">Read more..</a>
+        </div>
+        <div class="article-card">
+          <h3>Article 51A - Fundamental Duties</h3>
+          <p>
+            Learn about the duties every citizen is expected to uphold to
+            strengthen the integrity and sovereignty of India.
+          </p>
+          <a href="#">Read more..</a>
+        </div>
+        <div class="article-card">
+          <h3>Article 243 - Panchayati Raj System</h3>
+          <p>
+            Discover the constitutional framework for local self-governance in
+            rural India.
+          </p>
+          <a href="#">Read more..</a>
+        </div>
+        <div class="article-card">
+          <h3>Article 17 - Abolition of Untouchability</h3>
+          <p>
+            Understand how the Constitution eradicates untouchability and
+            promotes equality in society.
+          </p>
+          <a href="#">Read more..</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 style="color: rgb(107, 107, 235)">About Us</h2>
+      <p>
+        Our mission is to break down the complex legal language of the Indian
+        Constitution into simple, easy-to-understand content that is accessible
+        to everyone.
+      </p>
+    </section>
+
+    <!-- <footer id="contact">
+          <p>Contact us: <a href="mailto:info@indiaconstitutionsimplified.com">info@indiaconstitutionsimplified.com</a></p>
+          <p>Follow us on <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+      </footer> -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2><i class="fas fa-balance-scale"></i> Find Your Law</h2>
+          <p>
+            Empowering citizens with easy access to India's Constitution.
+            Understand your rights, responsibilities, and the laws that shape
+            our nation.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="#preamble"><i class="fas fa-flag"></i> Preamble</a>
+            </li>
+            <li>
+              <a href="#rights"
+                ><i class="fas fa-handshake"></i> Fundamental Rights</a
+              >
+            </li>
+            <li>
+              <a href="#duties"
+                ><i class="fas fa-clipboard-list"></i> Fundamental Duties</a
+              >
+            </li>
+            <li>
+              <a href="#laws"><i class="fas fa-gavel"></i> Find Your Law</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Stay Connected</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 Constitution of India. All Rights Reserved. |
+          <a href="#privacy-policy">Privacy Policy</a> |
+          <a href="#terms">Terms of Use</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
